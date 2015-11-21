@@ -1,0 +1,32 @@
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\App.xbf
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\MainPage.xbf
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\My wallet.xr.xml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\My wallet.exe
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\My wallet.pdb
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\resources.pri
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\AppxManifest.xml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\bin\Release\My wallet.build.appxrecipe
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\App.g.i.cs
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\App.g.cs
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\MainPage.g.i.cs
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\MainPage.g.cs
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\XamlTypeInfo.g.cs
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\App.xaml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\MainPage.xaml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\App.xbf
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\MainPage.xbf
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\XamlSaveStateFile.xml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\My wallet.exe
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\My wallet.pdb
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\priconfig.xml
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\priconfig.xml.intermediate
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\layout.resfiles
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\layout.resfiles.intermediate
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\resources.resfiles
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\resources.resfiles.intermediate
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\pri.resfiles
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\pri.resfiles.intermediate
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\qualifiers.txt
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\qualifiers.txt.intermediate
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\youssef  adel\Documents\Visual Studio 2015\Projects\My wallet\My wallet\obj\Release\ProjectArchitectures.txt

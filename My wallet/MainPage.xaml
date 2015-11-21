@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="My_wallet.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:My_wallet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Pivot Name="main_pivot" Background="WhiteSmoke" Grid.ColumnSpan="4" Margin="0,27,0,0" SelectionChanged="Pivot_SelectionChanged">
+            <PivotItem Margin="0,23,0,-0.333" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="33*"/>
+                        <RowDefinition Height="78*"/>
+                        <RowDefinition Height="162*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="141*"/>
+                        <RowDefinition Height="46*"/>
+                        <RowDefinition Height="57*"/>
+                        <RowDefinition Height="11*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="YOU CURRENTLY HAVE " Foreground="Black" FontSize="30" Margin="0,10.5,-0.333,3.833" Grid.Row="1" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" />
+                    <TextBlock Name="prob" Text= "" Foreground="Black" FontSize="18" Margin="-1,98.167,0,52" Grid.Row="2" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+
+                    <TextBlock Name="myMoney" Text="0" Foreground="Black" FontSize="72" Margin="0,10.167,-0.333,2.5" Grid.Row="2" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" />
+                    <TextBox Name="Money" HorizontalAlignment="Center" Margin="0,159.167,0,0" Grid.Row="2" TextWrapping="Wrap" PlaceholderText="AMOUNT OF MONEY" VerticalAlignment="Top"  Height="45" Grid.ColumnSpan="2" TextAlignment="Center" Grid.RowSpan="2" Width="400" InputScope="Number"/>
+                    <TextBox Name="MoneyFor" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" PlaceholderText="DESCRIPTION" VerticalAlignment="Top"  Height="141" TextAlignment="Center" Grid.ColumnSpan="2" Margin="0,0,0,-0.167" Width="400"/>
+                    <Button Content="ADD" Grid.Column="0" HorizontalAlignment="Center" Margin="0,0.333,0,-8.667" Grid.Row="6" VerticalAlignment="Top" Width="200" Height="65" Background="#B2000000" Click="addMoney"/>
+                    <Button Content="SUBTRACT" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="200" Height="65" Background="#B2000000" Click="subMoney"/>
+
+
+
+
+                </Grid>
+            </PivotItem>
+            <PivotItem Margin="0,23,0,-0.333" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="62*"/>
+                        <RowDefinition Height="79*"/>
+                        <RowDefinition Height="64*"/>
+                        <RowDefinition Height="289*"/>
+                        <RowDefinition Height="62*"/>
+                        <RowDefinition Height="21*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="YOUR SPEND/SAVE " Foreground="Black" FontSize="30" Margin="0,7.667,0,0" Grid.Row="1" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" />
+
+                    <TextBlock Name="moneyspent" Text="0" Foreground="Black" FontSize="60" Margin="-1,3,0,9.167" Grid.Row="2" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" />
+                    <TextBlock Name="hisory" Text= "history" Foreground="Black" FontSize="25" Margin="0,9.833,-1,9.333" Grid.Row="3" FontWeight="Bold" FontFamily="Bradley Hand ITC" TextAlignment="Center" Grid.ColumnSpan="2" />
+
+                    <ListBox Name="mySpending"  Foreground="Black" FontSize="36" Margin="0,10.667,0,9.667" Grid.Row="4" FontWeight="Bold" FontFamily="Bradley Hand ITC" Grid.ColumnSpan="2"   >
+
+                        <!-- <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                        <x:String>Item 3</x:String>-->
+                    </ListBox>
+                    <Button Content="Empty History" Grid.Column="0" HorizontalAlignment="Center" Margin="0,9.333,0,0" Grid.Row="5" VerticalAlignment="Top" Width="200" Height="65" Background="#B2000000" Click="emptyHistory_Click" Grid.RowSpan="2"/>
+                    <Button Content="Undo" Grid.Column="1" HorizontalAlignment="Center" Margin="0,9.333,0,0" Grid.Row="5" VerticalAlignment="Top" Width="200" Height="65" Background="#B2000000" Click="Undo_Click" Grid.RowSpan="2"/>
+
+
+                </Grid>
+            </PivotItem>
+        </Pivot>
+
+        <Grid VerticalAlignment="Top" Height="80" Margin="0,-27,0,0" Background="#FF0A3676" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+            <Image x:Name="wallet" Grid.Column="0" Source="/Assets/wallet.png" Opacity="0.5" Margin="10,30,10,5" Tapped="wallet_tap"/>
+            <Image x:Name="his" Grid.Column="1" Source="/Assets/his.png" Opacity="0.5" Margin="10,30,10,5" Tapped="his_tap" />
+
+        </Grid>
+
+    </Grid>
+</Page>
